@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+  </head>
+  <style>
+    .container {
+      width: 300px;
+      border:none;
+      margin: 50px auto;
+      border-radius: 10px;
+      background-color: #E17564;
+      box-shadow: 2px 2px  10px 4px  #872341;
+    }
+    .product-img {
+      height: 250px;
+      width: 300px;
+      border-radius: 10px 10px 0 0;
+    }
+    .description {
+      padding: 0 15px;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 0 10px;
+    }
+    .quantity-btn {
+      border: none;
+      background-color: #E8F9FF;
+    }
+    .quantity-img {
+      height: 20px;
+    }
+    .quantity {
+      font-size: 25px;
+    }
+    .quantity-container {
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <img src="Product.jpg" class="product-img" />
+
+      <p class="description">
+        One94Store 3D Galaxy Crystal Ball Night Lamp - Engraved USB Table LED
+        Wooden Light for Home Office Decoration and Birthday Gift (Galaxy)(Warm
+        White)
+      </p>
+
+      <div class="quantity-container">
+        <button type="button" class="quantity-btn">
+          <img src="minus.png" class="quantity-img" />
+        </button>
+
+        <span class="quantity"> 1</span>
+
+        <button type="button" class="quantity-btn">
+          <img src="add.png" class="quantity-img" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
